@@ -1,0 +1,118 @@
+{
+ "t31": {
+  "ntok": {
+   "eng_Latn": 27424,
+   "fra_Latn": 36573,
+   "deu_Latn": 34401,
+   "rus_Cyrl": 40190,
+   "cmn_Hans": 38993,
+   "mya_Mymr": 82308
+  },
+  "se_max": {
+   "eng_Latn": 0.00302,
+   "fra_Latn": 0.00261,
+   "deu_Latn": 0.0027,
+   "rus_Cyrl": 0.00249,
+   "cmn_Hans": 0.00253,
+   "mya_Mymr": 0.00174
+  },
+  "se_tang": 5e-05
+ },
+ "t32": {
+  "handout": {
+   "n_kept": 369,
+   "tau": 0.4254795564492861,
+   "max_lape": 1.791759469228055,
+   "n_alive": 36805,
+   "per_lang": {
+    "eng_Latn": 14,
+    "fra_Latn": 15,
+    "deu_Latn": 18,
+    "rus_Cyrl": 10,
+    "cmn_Hans": 7,
+    "mya_Mymr": 3
+   },
+   "assigned_to_0": 302,
+   "assigned_to_1": 67,
+   "assigned_to_2plus": 0,
+   "lape_max_kept": 0.6697616632064455,
+   "q59": {
+    "n_with": 15,
+    "n_without": 17,
+    "jaccard": 0.7777777777777778
+   },
+   "split_half_jaccard": {
+    "eng_Latn": 0.6111111111111112,
+    "fra_Latn": 0.6666666666666666,
+    "deu_Latn": 0.8333333333333334,
+    "rus_Cyrl": 1.0,
+    "cmn_Hans": 0.75,
+    "mya_Mymr": 0.4
+   }
+  },
+  "prefilter": {
+   "n_kept": 369,
+   "tau": 0.4254795564492861,
+   "max_lape": 1.791759469228055,
+   "n_alive": 4079,
+   "per_lang": {
+    "eng_Latn": 69,
+    "fra_Latn": 133,
+    "deu_Latn": 116,
+    "rus_Cyrl": 41,
+    "cmn_Hans": 21,
+    "mya_Mymr": 41
+   },
+   "assigned_to_0": 0,
+   "assigned_to_1": 326,
+   "assigned_to_2plus": 43,
+   "lape_max_kept": 1.3734076438780427,
+   "q59": {
+    "n_with": 133,
+    "n_without": 195,
+    "jaccard": 0.673469387755102
+   },
+   "split_half_jaccard": {
+    "eng_Latn": 0.7560975609756098,
+    "fra_Latn": 0.7302631578947368,
+    "deu_Latn": 0.6861313868613139,
+    "rus_Cyrl": 0.8222222222222222,
+    "cmn_Hans": 0.7916666666666666,
+    "mya_Mymr": 0.8
+   }
+  },
+  "jaccard_handout_vs_prefilter": {
+   "eng_Latn": 0.2028985507246377,
+   "fra_Latn": 0.11278195488721804,
+   "deu_Latn": 0.15517241379310345,
+   "rus_Cyrl": 0.24390243902439024,
+   "cmn_Hans": 0.3333333333333333,
+   "mya_Mymr": 0.07317073170731707
+  }
+ },
+ "t34": {
+  "expected": 0.006510416666666667,
+  "handout": {
+   "n": 67,
+   "selected_r": 0.1003791226441025,
+   "selected_r_ln": 0.10145921306818077,
+   "random_r_matched": 0.006844867955268138,
+   "random_r_ln_matched": 0.0068996727053066784
+  },
+  "prefilter": {
+   "n": 421,
+   "selected_r": 0.034860844884195365,
+   "selected_r_ln": 0.03541607269134017,
+   "random_r_matched": 0.007148851889411516,
+   "random_r_ln_matched": 0.007171842057181223
+  }
+ },
+ "t33_baseline": {
+  "eng_Latn": 2.7026301845726888,
+  "fra_Latn": 2.078802950405921,
+  "deu_Latn": 2.146451091422897,
+  "rus_Cyrl": 1.7667726492782019,
+  "cmn_Hans": 2.001042102016298,
+  "mya_Mymr": 1.6718388197778313
+ }
+}

@@ -1,0 +1,4 @@
+Spearman(premium, W), seen by mBERT (n=20): rho=-0.617, p=0.0038
+  without ceb/war (n=18): rho=-0.728, p=0.0006
+  all 23 languages: rho=-0.469, p=0.0238
+max_input_chars_per_word = 100
